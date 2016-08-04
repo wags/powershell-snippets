@@ -16,3 +16,11 @@ PromiscuousMode : False
 ifAlias         : Backup VLAN
 PromiscuousMode : False
 ```
+
+---
+
+Count all files in a folder, including subfolders:
+
+```
+PS C:\> Get-ChildItem <folder> -File -Recurse | Measure-Object
+```
